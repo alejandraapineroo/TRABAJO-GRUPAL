@@ -30,3 +30,26 @@ resultado = puede_sobrevivir(resistencia, agua, raiz, hoja)
 
 # Resultado
 print("\n¿Puede sobrevivir la planta en un clima seco y caliente?:", resultado)
+
+# Visualización del árbol de decisiones
+def mostrar_arbol_decision():
+    print("\nÁrbol de decisión para la supervivencia de plantas:")
+    print("Resistencia al calor?")
+    print("├── Alta")
+    print("│   ├── Necesidad de agua?")
+    print("│   │   ├── Baja: Sí")
+    print("│   │   └── Alta/Media")
+    print("│   │       ├── Tipo de hoja?")
+    print("│   │       │   ├── Cerosa: Sí")
+    print("│   │       │   └── Gruesa/Fina: No")
+    print("├── Media")
+    print("│   ├── Profundidad de la raíz?")
+    print("│   │   ├── Profunda")
+    print("│   │   │   ├── Tipo de hoja?")
+    print("│   │   │   │   ├── Cerosa: Sí")
+    print("│   │   │   │   └── Gruesa/Fina: No")
+    print("│   │   └── Media/Superficial: No")
+    print("└── Baja: No")
+
+# Mostrar el árbol de decisión
+mostrar_arbol_decision()
