@@ -1,0 +1,19 @@
+def puede_sobrevivir(resistencia_calor, necesidad_agua, profundidad_raiz, tipo_hoja):
+    if resistencia_calor == 'alta':
+        if necesidad_agua == 'baja':
+            return 'Sí'
+        else:
+            if tipo_hoja == 'cerosa':
+                return 'Sí'
+            else:
+                return 'No'
+    elif resistencia_calor == 'media':
+        if profundidad_raiz == 'profunda':
+            if tipo_hoja == 'cerosa':
+                return 'Sí'
+            else:
+                return 'No'
+        else:
+            return 'No'
+    else:
+        return 'No'
