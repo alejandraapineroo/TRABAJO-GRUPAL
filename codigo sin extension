@@ -1,3 +1,4 @@
+
 def puede_sobrevivir(resistencia_calor, necesidad_agua, profundidad_raiz, tipo_hoja):
     if resistencia_calor == 'alta':
         if necesidad_agua == 'baja':
@@ -17,7 +18,6 @@ def puede_sobrevivir(resistencia_calor, necesidad_agua, profundidad_raiz, tipo_h
             return 'No'
     else:
         return 'No'
-    
 # Entrada de datos del usuario
 print("Clasificador de supervivencia de plantas en Arrakis ")
 resistencia = input("Resistencia al calor (alta/media/baja): ").strip().lower()
