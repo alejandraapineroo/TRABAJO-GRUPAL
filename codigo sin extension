@@ -59,4 +59,4 @@ print("\nConceptos básicos de aprendizaje automático:")
 print("1. Entropía: Es una medida de incertidumbre o desorden en los datos. En los árboles de decisión, se utiliza para determinar qué característica dividir para reducir la incertidumbre.")
 print("2. Impureza de Gini: Es una métrica que mide la probabilidad de clasificar incorrectamente un elemento si se selecciona al azar. Los algoritmos de árboles de decisión intentan minimizar esta impureza al construir el árbol.")
 
-print("\nNota: Los algoritmos de aprendizaje automático, como los árboles de decisión, utilizan estas métricas para dividir los datos de manera automática y eficiente."
+print("\nNota: Los algoritmos de aprendizaje automático, como los árboles de decisión, utilizan estas métricas para dividir los datos de manera automática y eficiente.")
